@@ -7,5 +7,5 @@ services:
       context: .
       dockerfile: ./docker/php-unit/Dockerfile
     ports:
-      - "8188:80"
+      - "8188:8080"
     pull_policy: build

@@ -5,4 +5,4 @@ WORKDIR /www
 COPY ../../app/ .
 COPY ./docker/php-unit/docker-entrypoint.d/config.json /docker-entrypoint.d/
 
-EXPOSE 80
+EXPOSE 8080
