@@ -8,3 +8,4 @@ services:
       dockerfile: ./docker/php-unit/Dockerfile
     ports:
       - "8080:80"
+    pull_policy: build
