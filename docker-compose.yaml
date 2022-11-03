@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  php-unit:
+    container_name: php-unit-app
+    build:
+      context: .
+      dockerfile: ./docker/php-unit/Dockerfile
+    ports:
+      - "8080:80"
