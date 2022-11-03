@@ -1,6 +1,5 @@
 FROM docker.io/nginx/unit:1.28.0-php8.1
 
-RUN mkdir /www
 WORKDIR /www
 
 COPY ../../app/ .
